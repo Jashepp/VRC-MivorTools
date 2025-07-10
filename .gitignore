@@ -1,0 +1,4 @@
+.github/*.meta
+.vpm/*.meta
+*.md.meta
+LICENSE.meta

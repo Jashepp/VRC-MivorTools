@@ -1,0 +1,12 @@
+{
+    "name": "net.mivor.mivortools.extras",
+    "displayName": "MivorTools Extras",
+    "version": "0.0.1",
+    "hideInEditor": false,
+    "unity": "2022.3",
+	"unityRelease": "6f1",
+    "author": {
+        "name": "Jashepp (Mivor)",
+        "url": "https://mivortools.mivor.net/vrchat/"
+    }
+}

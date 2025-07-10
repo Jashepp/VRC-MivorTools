@@ -1,0 +1,80 @@
+{
+    "packages": {
+		"net.mivor.mivortools.common": {
+            "versions": {
+                "0.1.0": {
+                    "name": "net.mivor.mivortools.common",
+                    "displayName": "MivorTools Common",
+                    "version": "0.1.0",
+                    "unity": "2022.3",
+                    "description": "Common code used by MivorTools packages",
+                    "author": {
+                        "name": "Jashepp (Mivor)",
+                        "url": "https://mivortools.mivor.net/vrchat/"
+                    },
+                    "url": "",
+                    "repo": "https://cdn.jsdelivr.net/gh/Jashepp/VRC-MivorTools@master/.vpm/vpm.json",
+                    "legacyFolders": {
+                        "Packages\\MivorTools": ""
+                    },
+					"vpmDependencies": {},
+                    "dependencies": {}
+                }
+            }
+        },
+		"net.mivor.mivortools.extras": {
+            "versions": {
+                "0.1.0": {
+                    "name": "net.mivor.mivortools.extras",
+                    "displayName": "MivorTools Extras",
+                    "version": "0.1.0",
+                    "unity": "2022.3",
+                    "description": "Extra features such as Bone Viewer, Play Controls, File Tools, Auto Scene Backup, etc",
+                    "author": {
+                        "name": "Jashepp (Mivor)",
+                        "url": "https://mivortools.mivor.net/vrchat/"
+                    },
+                    "url": "",
+                    "repo": "https://cdn.jsdelivr.net/gh/Jashepp/VRC-MivorTools@master/.vpm/vpm.json",
+                    "legacyFolders": {
+                        "Packages\\MivorTools": ""
+                    },
+					"vpmDependencies": {
+                        "com.vrchat.avatars": ">=3.5.2",
+						"net.mivor.mivortools.common": ">=0.1.0"
+                    },
+                    "dependencies": {}
+                }
+            }
+        },
+        "net.mivor.mivortools.multiavatar": {
+            "versions": {
+                "0.1.0": {
+                    "name": "net.mivor.mivortools.multiavatar",
+                    "displayName": "MivorTools Multi-Avatar",
+                    "version": "0.1.0",
+                    "unity": "2022.3",
+                    "description": "A non-destructive Multi-Avatar Manager for handling multiple versions of a single avatar",
+                    "author": {
+                        "name": "Jashepp (Mivor)",
+                        "url": "https://mivortools.mivor.net/vrchat/"
+                    },
+                    "url": "",
+                    "repo": "https://cdn.jsdelivr.net/gh/Jashepp/VRC-MivorTools@master/.vpm/vpm.json",
+                    "legacyFolders": {
+                        "Packages\\MivorTools": ""
+                    },
+					"vpmDependencies": {
+                        "com.vrchat.avatars": ">=3.5.2",
+						"net.mivor.mivortools.common": ">=0.1.0"
+                    },
+                    "dependencies": {}
+                }
+            }
+        }
+    },
+    "author": "Jashepp (Mivor)",
+    "name": "MivorTools",
+    "id": "net.mivor.mivortools",
+    "url": "https://cdn.jsdelivr.net/gh/Jashepp/VRC-MivorTools@master/.vpm/vpm.json"
+}

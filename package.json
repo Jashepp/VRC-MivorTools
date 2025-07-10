@@ -1,0 +1,11 @@
+{
+    "name": "net.mivor.dev.mivortools",
+    "displayName": "[MivorTools] Packages",
+    "version": "0.0.0",
+    "hideInEditor": false,
+    "author": {
+        "name": "Mivor",
+        "email": "unchosen.aus+mivortools@gmail.com",
+        "url": "https://github.com/Jashepp"
+    }
+}
